@@ -7,12 +7,7 @@ import { Link } from 'react-router-dom';
 
 
 const Header = () => {
-    // { activeTabName, onClickTab }
-    // const { QUESTION_1, QUESTION_2, QUESTION_3, QUESTION_4, QUESTION_5, QUESTION_6 } = tabLabel;
-    // const renderTabAnswer = (tabLabel, isActive) => (
 
-    // )
-    // const renderTabAnswer={}
     function clickMe() {
         const targetDiv = document.getElementById("answer1");
         const btn = document.getElementById("question1");
@@ -93,7 +88,7 @@ const Header = () => {
                     <h1>Unlimited movies, TV <br /> shows, and more.</h1>
                     <p class="para-1">Watch anywhere. Cancel anytime.</p>
                     <p class="para-2">Ready to watch? Enter your email to create or restart your membership.</p>
-                    <input type="text" name="email" placeholder="Email Address" />
+                    <input type="text" name="email" placeholder="Email Address" required />
                     <Link to="/netflixshow">
                         <button type="submit" >Get Started </button>
 
@@ -252,7 +247,7 @@ const Header = () => {
 
             <div class="email-address-container">
                 <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                <input type="text" name="email" placeholder="Email Address" />
+                <input type="text" name="email" placeholder="Email Address" required />
                 <Link to="/netflixshow">
                     <button type="submit">Get Started </button>
                 </Link>

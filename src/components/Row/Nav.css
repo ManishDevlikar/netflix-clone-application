@@ -29,3 +29,29 @@
     right: 20px;
     object-fit: contain;
   }
+   select{
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 10px;
+    float: right;
+    position: relative;
+    right: 80%;
+}
+ select option{
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+
+  
+
+}
+
+
+@media(max-width: 659px){
+   select{
+    position: relative;
+    right: 220px;
+    padding: 2px 10px;
+}
+
+}

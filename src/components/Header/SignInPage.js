@@ -18,7 +18,7 @@ const SignInPage = () => {
                         <h1>Sign In</h1>
 
                         <div class="input-text">
-                            <input type="text" id="inputEmail" name="email" placeholder="Email or phone number" />
+                            <input type="text" id="inputEmail" name="email" placeholder="Email or phone number" required />
                             {/* onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)"
                             <div class="warning-input" id="warningEmail">
                                 Please enter a valid email or phone number.
@@ -26,7 +26,7 @@ const SignInPage = () => {
                         </div>
 
                         <div class="input-text">
-                            <input type="password" id="inputPassword" name="password" placeholder="Password" />
+                            <input type="password" id="inputPassword" name="password" placeholder="Password" required />
                             {/* onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)"  */}
                             {/* <div class="warning-input" id="warningPassword">
                                 Your password must contain between 4 and 60 characters.
